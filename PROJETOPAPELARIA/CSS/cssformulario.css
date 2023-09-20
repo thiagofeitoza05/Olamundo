@@ -1,0 +1,139 @@
+
+        @charset="UTF-8";
+
+        .wrapper{
+            margin: auto;/*centralizar*/
+            display: flex; /*para transformar em blocos*/
+            flex-direction: row;/*direção das caixas-em linha:row*/
+            flex-wrap: wrap;/*para ter a quebra de caixas*/
+            justify-content: center;/*alinhar as caixas no centro do horizonte*/
+            align-items: center;/*alinhar no centro da linha vertical*/
+            width: 80%;
+            height: auto;
+            background-color: rgb(255, 255, 255);
+            padding: 0px;/*espaço entre as caixas e o principal*/
+            box-shadow: 0px 0px 20px; /* (1 - deslocamento lateral) (2 - deslocamento vertical) (3 - espalhamento da sombra)*/
+        }
+        .logo{ /*caixa*/
+            background-color: rgb(255, 0, 0);
+            width: 10%;
+            height: 100px;
+        }
+        .logotipo{ /*imagem*/
+            width: 100%;
+            height: 100px;
+        }
+        .boxmenu{ /*caixa do nav*/
+            background-color: rgb(0, 109, 0);
+            width: 90%;
+            height: 100px;
+            margin: 0px;/*sem margem ao redor das caixas para ficarem juntas*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            background-color: #006789;
+           
+           }
+           
+           nav ul{
+            margin: 0px; /*ZERAR MARGEM PARA FICAR COLADO*/
+            padding: 0px; /*ZERAR PADDING PARA NÃO TER ESPAÇO POR DENTRO*/
+            float: right; /*POSICIONAMENTO DO MENU*/
+            text-align: center;
+           }
+           nav ul li{
+            float: left; /* ORDEM QUE APARECERÁ COM O BOTÃO*/
+            display: inline-block;/*para ficar um do lado do outro*/
+            font-size: 20px;
+            padding-top: 20px;
+            padding-right: 10px;
+           }
+           nav ul li a{
+            color: rgb(255, 255, 255);/*cor do link*/
+            text-decoration: none;/*sem decoração*/
+            padding: 20px;
+            display: block;/*transformar em blocos para colocar na posição que quiser*/
+           }
+           nav ul li a:hover{/*efeito mouse emcima do link*/
+            background-color: #34d2f8;
+            border-radius: 30px;
+            transition: all .5s;/*efeito de transição*/
+            font-weight: bolder;
+            color: #ffffff;
+
+           }
+        .caixaimg{
+            width: 50%;
+            
+            margin: 0px;
+            padding: 0px;
+            background-color: #fffefe;
+        }
+        .img1{
+            width: 100%;
+            margin: 0px;
+        }
+        .caixaformulario{/*caixa*/
+            background-color: rgb(255, 255, 255);
+            width: 50%;/*largura do formulário*/
+            margin: 0px;/*para ficar no centro*/
+        }
+        #CONTATO{
+            width: 90%;
+            margin: 20px;
+        }
+        
+        input, textarea{ /*fundo caixa de preeenchimento de dados*/
+            background-color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+        input:hover, textarea:hover{ /*mudar de cor quando passar o mouse na caixa de texto*/
+            background-color: #ffffff;
+        }
+        legend{ /*formatação das legendas*/
+            color: rgb(0, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.0em;
+            font-weight: bold;
+            
+        }
+        fieldset{ /*vamos colocar borda nos assuntos*/
+            border-color: #ffffff;
+            margin: 20px;
+        }
+        #sexo{
+            width: 150px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .rodapé{
+            background-color: #006789;
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            margin: 0px;
+            padding-top: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.1em;
+            color: rgb(255, 255, 255);
+        }
+        .submit1{
+            color: rgb(255, 255, 255);
+            background-color: #006789;
+        }
+        .submit1:hover{
+            background-color: black;
+        }
+        .limpar2{
+            color: #000000;
+            background-color: rgb(255, 255, 255);
+        }
+        .limpar2:hover{
+            background-color: rgb(255, 255, 255);
+        }
+       
+        

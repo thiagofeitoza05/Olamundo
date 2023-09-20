@@ -1,0 +1,157 @@
+
+        @charset="UTF-8";
+
+       
+        .wrapper{
+            margin: auto;/*centralizar*/
+            display: flex; /*para transformar em blocos*/
+            flex-direction: row;/*direção das caixas-em linha:row*/
+            flex-wrap: wrap;/*para ter a quebra de caixas*/
+
+            justify-content: center;/*alinhar as caixas no centro do horizonte*/
+            align-items: center;/*alinhar no centro da linha vertical*/
+            width: 85%;
+            height: auto;
+            background-color: rgb(255, 255, 255);
+            padding: 0px;/*espaço entre as caixas e o principal*/
+            box-shadow: 0px 0px 20px; /* (1 - deslocamento lateral) (2 - deslocamento vertical) (3 - espalhamento da sombra)*/
+        }
+        .logo{ /*caixa*/
+            background-color: rgb(255, 0, 0);
+            width: 10%;
+            height: 100px;
+        }
+        .logotipo{ /*imagem*/
+            width: 100%;
+            height: 100px;
+        }
+        .boxmenu{ /*caixa do nav*/
+            background-color: rgb(0, 109, 0);
+            width: 90%;
+            height: 100px;
+            margin: 0px;/*sem margem ao redor das caixas para ficarem juntas*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .banner{ /*caixa do banner principal*/
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: auto;
+            
+        }
+        .bannerprincipal{
+            width: 100%;
+            height: 700px;
+        }
+        .boxproduto{ /*caixa produto*/
+            background-color: rgb(255, 255, 255);
+            width: 20%;
+            height: auto;
+            margin: 10px;
+            font-size: 0.7em; /* medida responsiva. para manter o mesmo tamanho em qualquer dispositivo*/
+            text-align: center;
+            padding: 0px; /*espaçamento entre o conteúdo e a caixa, para não ficar colado*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .produto{ /*imagens*/
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .oferta{
+            background-color: rgb(255, 255, 255);
+            width: 30%;
+            height: auto;
+            margin: 10px;
+            text-align: justify;
+            border-radius: 5px;
+        }
+        .boferta{
+            width: 100%;
+            height: 350px;
+            border-radius: 35px;
+        }
+        .frete{
+            background-color: rgb(255, 255, 255);
+            width: 60%;
+            height: auto;
+            margin: 10px;
+            text-align: justify;
+            border-radius: 5px;
+        }
+        .bfrete{
+            width: 100%;
+            height: 350px;
+           border-radius: 30px;
+           
+        }
+        .rodapé{
+            background-color: #006789;
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            margin: 0px;
+            padding-top: 25px;
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.1em;
+            color: rgb(255, 255, 255);
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            background-color: #006789;
+           }
+           
+           nav ul{
+            margin: 0px; /*ZERAR MARGEM PARA FICAR COLADO*/
+            padding: 0px; /*ZERAR PADDING PARA NÃO TER ESPAÇO POR DENTRO*/
+            float: right; /*POSICIONAMENTO DO MENU*/
+            text-align: center;
+           }
+           nav ul li{
+            float: left; /* ORDEM QUE APARECERÁ COM O BOTÃO*/
+            display: inline-block;/*para ficar um do lado do outro*/
+            font-size: 20px;
+            padding-top: 20px;
+            padding-right: 10px;
+           }
+           nav ul li a{
+            color: rgb(255, 255, 255);/*cor do link*/
+            text-decoration: none;/*sem decoração*/
+            padding: 20px;
+            display: block;/*transformar em blocos para colocar na posição que quiser*/
+           }
+           nav ul li a:hover{/*efeito mouse emcima do link*/
+            background-color: #34d2f8;
+            border-radius: 30px;
+            transition: all .5s;/*efeito de transição*/
+            font-weight: bolder;
+            color: #ffffff;
+           }
+           .banneranimacao{
+            display: inline-block;
+            width: 100%;
+            height: 600px;
+            position: relative;
+            background-color: darkgray;
+            margin: 2px auto 2px auto;
+        }
+        .banneranimacao img {
+            position: absolute;
+            transition-property: opacity;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+        }
+        .banneranimacao #anime1, .banneranimacao:hover #anime2{
+            opacity: 1;
+        }
+        .banneranimacao:hover #anime1, .banneranimacao #anime2{
+            opacity: 0;
+        }
+        .tamanhoImgs{
+            width: 100%;
+            height: 600px;
+        }
+       
+        

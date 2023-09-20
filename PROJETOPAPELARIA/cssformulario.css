@@ -1,0 +1,36 @@
+
+        @charset="UTF-8";
+
+       
+        form{
+            width: 50%;/*largura do formulário*/
+            margin: auto;/*para ficar no centro*/
+            
+        }
+        input, textarea{ /*fundo caixa de preeenchimento de dados*/
+            background-color: rgb(255, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+        input:hover, textarea:hover{ /*mudar de cor quando passar o mouse na caixa de texto*/
+            background-color: #006789;
+        }
+        legend{ /*formatação das legendas*/
+            color: rgb(0, 109, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.0em;
+            font-weight: bold;
+            
+        }
+        fieldset{ /*vamos colocar borda nos assuntos*/
+            border-color: #34d2f8;
+            margin: 20px;
+        }
+        #sexo{
+            width: 150px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+       
+        
