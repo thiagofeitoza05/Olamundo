@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+         div#CONTAINER{ /*formatar a div principal-container*/
+            width: 80%;
+            height: 700px;
+            background-color: rgb(255, 255, 255);
+            margin: auto; /*para centralizar no navegador*/
+            border-radius: 30px;
+         }
+         #TOPO{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            
+         }
+         #banner{
+            display: block;/*transformei em bloco para jogar para esquerda*/
+            float: left; /*flutuar para esquerda*/
+            width: 50%;
+            height: 640px;
+            background-color: rgb(198, 133, 115);
+           
+         }
+         h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(58, 27, 15);
+         }
+         #texto{
+            display: block;
+            float: right;
+            width: 50%;
+            height: 590px;
+            background-color: rgb(198, 133, 115);
+            padding-top: 50px;
+           
+         }
+         p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: rgb(51, 15, 5);
+            padding-top: 100px;
+            text-align: justify;
+            text-align: center;
+         }
+         #RODAPE{
+            clear: both;/*isso faz com que o rodapé fique fora da divisão*/
+            width: 100%;
+            height: 30px;
+            background-color: rgb(70, 25, 12);
+            color: aliceblue;
+            text-align: center;
+            padding-top: 10px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+         }
+        
+         figure{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+         }
+         li{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: inline;
+            font-size: 21px;
+         }
+         ul{
+            text-align: center;
+            padding-top: 17px;
+         }
+         .teste{
+            width: 100%;
+            height: 500px;
+            padding-top: 45px;
+         }
+         .sobre{
+            width: 100%;
+            height: 400px;
+            padding-top: 95px;
+            padding-left: 10px;
+            margin-top: 0%;
+            margin-left: 0;
+            margin-bottom: 0%;
+            margin-right: 0;
+         }
+         #cafe{
+            display: block;/*transformei em bloco para jogar para esquerda*/
+            float: left; /*flutuar para esquerda*/
+            width: 50%;
+            height: 640px;
+            background-color: rgb(255, 255, 255);
+           
+         }
+         #nos{
+            display: block;
+            float: right;
+            width: 50%;
+            height: 590px;
+            background-color: rgb(255, 255, 255);
+            padding-top: 50px;
+         }
+         .imgs{
+            width: 200px;
+            height: 200px;
+         }
+         td{
+            color: #431a0d;
+            font-size: 20px;
+         }
+     /*MENU PERSONALIZADO*/
+     nav{
+      width: 100%;
+      height: 60px;
+      background-color: #431a0d;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+     }
+     
+     nav ul{
+      margin: 0; /*ZERAR MARGEM PARA FICAR COLADO*/
+      padding: 0; /*ZERAR PADDING PARA NÃO TER ESPAÇO POR DENTRO*/
+      /*float: left; /*POSICIONAMENTO DO MENU*/
+      text-align: center;
+     }
+     nav ul li{
+      /*float: left; /* ORDEM QUE APARECERÁ COM O BOTÃO*/
+      display: inline-block;/*para ficar um do lado do outro*/
+     }
+     nav ul li a{
+      color: aliceblue;/*cor do link*/
+      text-decoration: none;/*sem decoração*/
+      padding: 15px;
+      display: block;/*transformar em blocos para colocar na posição que quiser*/
+     }
+     nav ul li a:hover{/*efeito mouse emcima do link*/
+      background-color: #ff8540;
+      border-radius: 15px;
+      transition: all .5s;/*efeito de transição*/
+      font-weight: bolder;
+      color: #431a0d;
+     }
+         
